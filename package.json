@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "stylelint": "stylelint 'src/**/*.{css,less,vue}' --fix",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
   },
@@ -22,6 +21,7 @@
     "@vue/eslint-config-prettier": "^10.2.0",
     "eslint": "^9.20.1",
     "eslint-plugin-vue": "^9.32.0",
+    "gh-pages": "^6.3.0",
     "less": "^4.2.2",
     "prettier": "^3.5.1",
     "vite": "^6.1.0",
